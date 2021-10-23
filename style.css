@@ -65,9 +65,10 @@ h2 {
   text-align: start;
   margin-right: 20px;
 }
-.annual-p {
+small {
   font-size: 0.8rem;
   text-align: start;
+  color: var(--Desaturated-blue);
 }
 .annual-plan a {
   position: absolute;
@@ -109,7 +110,6 @@ h2 {
 @media screen and (max-width: 376px) {
   .card {
     width: 90%;
-    
   }
   body {
     background-image: url(/images/pattern-background-mobile.svg);
